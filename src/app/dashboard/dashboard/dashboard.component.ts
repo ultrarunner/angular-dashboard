@@ -91,7 +91,7 @@ export class DashboardComponent implements OnInit {
         {
           name: {
             key: DashboardCard.metadata.NAME,
-            value: 'users'
+            value: 'title'
           },
           routerLink: {
             key: DashboardCard.metadata.ROUTERLINK,
@@ -99,7 +99,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa-users'
+            value: 'fa-cogs'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -111,7 +111,7 @@ export class DashboardComponent implements OnInit {
           },
           color: {
             key: DashboardCard.metadata.COLOR,
-            value: 'blue'
+            value: 'red'
           }
         }, DashboardUsersComponent /* Reference to the component we'd like to spawn */
       )
